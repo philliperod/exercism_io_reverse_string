@@ -1,8 +1,7 @@
-//
-// This is only a SKELETON file for the 'Reverse String' exercise. It's been provided as a
-// convenience to get you started writing code faster.
-//
-
-export const reverseString = () => {
-  throw new Error("Remove this statement and implement this function");
+export const reverseString = (string) => {
+  return string.split('').reverse().join('');
 };
+
+// 1) take the input and put it into an array
+// 2) reverse the values in the array
+// 3) join the reversed values in the array
